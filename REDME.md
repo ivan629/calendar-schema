@@ -1,7 +1,7 @@
-## Calendar-schema v1.0.0
+## Calendar-schema v1.0.3
 ## Installation:
-``npm i --save calendar-schema``
-##Example:
+``` npm i --save calendar-schema ```
+## Example:
 ``````
 import calendarSchema from 'calendar-schema';
 
@@ -44,4 +44,4 @@ const daysSchemaforCalendar = calendarSchema(month, year);
     //             { day: 29, month: 0, year: 2021, order: 33 },
     //             { day: 30, month: 0, year: 2021, order: 34 },
     //             { day: 31, month: 0, year: 2021, order: 35 } ]
-````
+``````

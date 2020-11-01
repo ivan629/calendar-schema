@@ -1,8 +1,10 @@
 {
   "name": "calendar-schema",
   "author": "Ivan Holovach",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "ISC",
   "description": "calendar-schema library generates calendar days schema for any calendar you build",
-  "main": "index.js"
+  "main": "index.js",
+  "keywords": ["calendar", "calendar-schema", "calendar-structure", "generate-calendar", "calendar-template"],
+  "homepage": "https://github.com/ivan629/calendar-schema"
 }

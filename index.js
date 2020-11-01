@@ -73,7 +73,7 @@ function checkIsNotValidParams(currentMonth, currentYear) {
 
 function getNormalizedArgs(currentMonth, currentYear) {
     return {
-        normalizedCurrentMonth: +currentMonth + 1,
+        normalizedCurrentMonth: +currentMonth - 1,
         normalizedCurrentYear: +currentYear,
     };
 }
