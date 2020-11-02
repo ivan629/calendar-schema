@@ -1,7 +1,9 @@
-## Calendar-schema v1.0.6
-## Installation:
-``` npm i --save calendar-schema ```
-## Example:
+## Calendar-schema v1.0.7
+## Installation
+``````
+npm i --save calendar-schema
+``````
+## Example
 ``````
 import calendarSchema from 'calendar-schema';
 

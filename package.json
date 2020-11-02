@@ -6,11 +6,15 @@
   "description": "calendar-schema library generates calendar days schema for any calendar you build",
   "main": "index.js",
   "keywords": [
+    "util",
+    "time",
+    "modules",
     "calendar",
     "calendar-schema",
-    "calendar-structure",
     "generate-calendar",
-    "calendar-template"
+    "calendar-template",
+    "calendar-generator",
+    "calendar-structure"
   ],
   "homepage": "https://github.com/ivan629/calendar-schema"
 }
