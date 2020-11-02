@@ -1,11 +1,11 @@
-## Calendar-schema v1.0.4
+## Calendar-schema v1.0.5
 ## Installation:
 ``` npm i --save calendar-schema ```
 ## Example:
 ``````
 import calendarSchema from 'calendar-schema';
 
-const month = 1;
+const month = 0; // 0 - 11 range of months
 const year = 2021;
 const daysSchemaForCalendar = calendarSchema(month, year);
 
