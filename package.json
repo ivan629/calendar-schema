@@ -5,6 +5,12 @@
   "license": "ISC",
   "description": "calendar-schema library generates calendar days schema for any calendar you build",
   "main": "index.js",
-  "keywords": ["calendar", "calendar-schema", "calendar-structure", "generate-calendar", "calendar-template"],
+  "keywords": [
+    "calendar",
+    "calendar-schema",
+    "calendar-structure",
+    "generate-calendar",
+    "calendar-template"
+  ],
   "homepage": "https://github.com/ivan629/calendar-schema"
 }

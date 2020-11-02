@@ -1,4 +1,4 @@
-## Calendar-schema v1.0.5
+## Calendar-schema v1.0.6
 ## Installation:
 ``` npm i --save calendar-schema ```
 ## Example:
