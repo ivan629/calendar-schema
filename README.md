@@ -1,4 +1,4 @@
-## Calendar-schema v1.0.7
+## Calendar-schema v1.0.8
 ## Installation
 ``````
 npm i --save calendar-schema
@@ -11,10 +11,10 @@ const month = 0; // 0 - 11 range of months
 const year = 2021;
 const daysSchemaForCalendar = calendarSchema(month, year);
 
-    // output => [ { day: 28, month: 11, year: 2020, order: 0 },
-    //             { day: 29, month: 11, year: 2020, order: 1 },
-    //             { day: 30, month: 11, year: 2020, order: 2 },
-    //             { day: 31, month: 11, year: 2020, order: 3 },
+    // output => [ { day: 28, month: 11, year: 2020, order: 1 },
+    //             { day: 29, month: 11, year: 2020, order: 2 },
+    //             { day: 30, month: 11, year: 2020, order: 3 },
+    //             { day: 31, month: 11, year: 2020, order: 4 },
     //             { day: 1, month: 0, year: 2021, order: 5 },
     //             { day: 2, month: 0, year: 2021, order: 6 },
     //             { day: 3, month: 0, year: 2021, order: 7 },

@@ -28,7 +28,7 @@ function getPreviousMonthDays(currentMonth, currentYear) {
                 day,
                 month: prevMonthNumber,
                 year: year,
-                order: index,
+                order: index + 1,
             });
             return result;
         }, []);
