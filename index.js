@@ -173,7 +173,9 @@ function calendarSchema(currentMonth, currentYear, config) {
 
     const sortedCalendarDays = calendarDays.sort((a, b) => (a.order > b.order ? 1 : -1));
     const calendarDaysWithWeekDay = getCalendarDaysWithWeekDays(sortedCalendarDays);
-    return chunk(calendarDaysWithWeekDay, chunkDaysCount);
+    return chunkDaysCount === 1
+        ? calendarDaysWithWeekDay
+        : chunk(calendarDaysWithWeekDay, chunkDaysCount);
 }
 
 module.exports = calendarSchema;

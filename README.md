@@ -1,4 +1,4 @@
-# Calendar-schema v1.0.10
+# Calendar-schema v1.0.11
 # Installation
 ```
 npm i --save calendar-schema
@@ -11,15 +11,15 @@ calendarSchema(month, year, config)
 ### arguments
  Parameter  | description | type | is required |
 | ------------- | ------------- | --------------------- | ---------- |
-| monthNumber  | month number in range 0 - 11  | string, number| required |
+| month  | month number in range `0 - 11`  | string, number| required |
 | year | current year | string, number | required |
 | config | calendar config | object | optional |
 
 ### config
  Parameter | description | type | is required |
 | -----------------------| -------------| ------------| ---------- |
-| startFromMonday  | if true then week begins from Monday  | boolean | optional |
-| chunked | if true then returns chunked calendar schema into weeks | boolean | optional |
+| startFromMonday  | if `true` then week begins from Monday  | boolean | optional |
+| chunked | if `true` then returns chunked calendar schema into weeks | boolean | optional |
 | chunkDaysCount | number calendar' days chunks | number | optional |
 
 ## Example
