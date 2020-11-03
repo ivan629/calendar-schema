@@ -22,7 +22,7 @@ calendarSchema(month, year, config)
 | chunked | if true then returns chunked calendar schema into weeks | boolean | optional |
 | chunkDaysCount | number calendar' days chunks | number | optional |
 
-##Example
+## Example
 ``````
 import calendarSchema from 'calendar-schema';
 
